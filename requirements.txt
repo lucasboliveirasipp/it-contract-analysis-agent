@@ -1,0 +1,44 @@
+# Core LangChain and LangGraph
+# (langchain 1.x mudou vários caminhos de import; mantido na linha 0.3)
+langgraph>=0.6,<1.0
+langchain>=0.3.0,<1.0
+langchain-core>=0.3,<1.0
+langchain-openai>=0.2,<1.0
+langchain-community>=0.3,<1.0
+langchain-text-splitters>=0.3,<1.0
+
+# Azure Services
+azure-ai-documentintelligence>=1.0.0
+azure-search-documents>=11.4.0
+azure-core>=1.29.0
+azure-identity>=1.15.0
+
+# PDF / documentos
+pdfplumber>=0.11.0
+PyPDF2>=3.0.0
+pypdf>=4.0.0
+docx2txt>=0.8
+
+# Data Validation and Processing
+pydantic>=2.5.0
+pydantic-settings>=2.1.0
+pandas>=2.0.0
+openpyxl>=3.1.0
+
+# Web Interface
+streamlit>=1.29
+
+# Feedback (opcional, mas importado pelo app)
+pymongo>=4.6.0
+
+# Utilities
+python-dotenv>=1.0.0
+python-dateutil>=2.8.2
+requests>=2.31.0
+typing-extensions>=4.9.0
+tqdm>=4.66.0
+colorama>=0.4.6
+
+# Adicionado na revisão do portfólio (importado pelo código)
+azure-cognitiveservices-vision-computervision
+pdfminer.six
